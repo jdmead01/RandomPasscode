@@ -1,0 +1,10 @@
+﻿@{
+ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Random Passcode Generator</h1>
+    <p>Passcode # @ViewBag.Count</p>
+        <input type="pwd" value="@ViewBag.Password"><br>
+        <button value="Refresh Page" onClick="window.location.reload();">Generate</button>
+</div>
